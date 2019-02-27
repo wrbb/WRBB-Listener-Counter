@@ -5,15 +5,5 @@ This script works by running the selenium web driver to navigate to both [spinit
 ## Installation
 
 To install this script first run 
-```bash
-gem install selenium-webdrier
-```
-
-Then either download the chromedriver [here](http://chromedriver.chromium.org/downloads) or if homebrew is installed, install it using the command
-
-```
-brew install chromedriver
-```
-
 
 
