@@ -5,5 +5,9 @@ This script works by running the selenium web driver to navigate to both [spinit
 ## Installation
 
 To install this script first run 
+```
+bundle install
+```
+
 
 

@@ -2,12 +2,12 @@
 require 'mail'
 require 'csv'
 
-TO_EMAIL = 'mail@brycethuilot.com'.freeze # 'andrew@wrbbradio.org'
+TO_EMAIL =  'andrew@wrbbradio.org'.freeze
 FROM_EMAIL = 'listener@wrbbradio.org'.freeze
 FILE_LOCATION = ENV['HOME'] + '/.listeners.csv'
 DATE_FORMAT = '%-m/%-d'.freeze
 USER_NAME = FROM_EMAIL
-PASSWORD = 'oushimiteeverconfu'.freeze
+PASSWORD = ENV['LISTENER_PASSWORD'].freeze
 PAST_DATE_DIFFERENCE_SECONDS = (7 * 24 * 60 * 60)
 
 def average_listeners(csv_data)
